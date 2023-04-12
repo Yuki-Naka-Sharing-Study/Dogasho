@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6B7348E0180BEBA075584893 /* Pods_SampleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */; };
 		D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBA29E6A22E0034A1D9 /* launchImageView.png */; };
+		D1103DBD29E6D7550034A1D9 /* QuizIllustrator.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBC29E6D7550034A1D9 /* QuizIllustrator.csv */; };
 		D164BAD529DEEF37009E9B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD429DEEF37009E9B08 /* AppDelegate.swift */; };
 		D164BAD729DEEF37009E9B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */; };
 		D164BAD929DEEF37009E9B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD829DEEF37009E9B08 /* ViewController.swift */; };
@@ -17,17 +18,18 @@
 		D164BAE129DEEF39009E9B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */; };
 		D164BAE929DEF147009E9B08 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAE829DEF147009E9B08 /* QuizViewController.swift */; };
 		D164BAEB29DEF260009E9B08 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */; };
-		D164BAED29E14AA1009E9B08 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* quiz1.csv */; };
+		D164BAED29E14AA1009E9B08 /* QuizPremierePro.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* QuizPremierePro.csv */; };
 		D164BAF129E29D20009E9B08 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEF29E29D1F009E9B08 /* correct.png */; };
 		D164BAF229E29D20009E9B08 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF029E29D1F009E9B08 /* incorrect.png */; };
 		D164BAF529E2A465009E9B08 /* SelectToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */; };
-		D164BAF729E2A773009E9B08 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF629E2A773009E9B08 /* quiz2.csv */; };
-		D164BAF929E2A799009E9B08 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* quiz3.csv */; };
+		D164BAF729E2A773009E9B08 /* QuizAftterEffects.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF629E2A773009E9B08 /* QuizAftterEffects.csv */; };
+		D164BAF929E2A799009E9B08 /* QuizPhotoshop.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* QuizPhotoshop.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3FFACE484201893BB541C84 /* Pods-SampleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz.debug.xcconfig"; path = "Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 		D1103DBA29E6A22E0034A1D9 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		D1103DBC29E6D7550034A1D9 /* QuizIllustrator.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizIllustrator.csv; sourceTree = "<group>"; };
 		D164BAD129DEEF37009E9B08 /* SampleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BAD429DEEF37009E9B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,12 +40,12 @@
 		D164BAE229DEEF39009E9B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D164BAE829DEF147009E9B08 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		D164BAEC29E14AA1009E9B08 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		D164BAEC29E14AA1009E9B08 /* QuizPremierePro.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizPremierePro.csv; sourceTree = "<group>"; };
 		D164BAEF29E29D1F009E9B08 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		D164BAF029E29D1F009E9B08 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectToolViewController.swift; sourceTree = "<group>"; };
-		D164BAF629E2A773009E9B08 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
-		D164BAF829E2A799009E9B08 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		D164BAF629E2A773009E9B08 /* QuizAftterEffects.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizAftterEffects.csv; sourceTree = "<group>"; };
+		D164BAF829E2A799009E9B08 /* QuizPhotoshop.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizPhotoshop.csv; sourceTree = "<group>"; };
 		DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D9B6BCA50B2B54F844C20A /* Pods-SampleQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz.release.xcconfig"; path = "Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,11 +96,12 @@
 				D164BAD829DEEF37009E9B08 /* ViewController.swift */,
 				D164BADA29DEEF37009E9B08 /* Main.storyboard */,
 				D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */,
-				D164BAEC29E14AA1009E9B08 /* quiz1.csv */,
 				D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */,
 				D164BAE829DEF147009E9B08 /* QuizViewController.swift */,
-				D164BAF629E2A773009E9B08 /* quiz2.csv */,
-				D164BAF829E2A799009E9B08 /* quiz3.csv */,
+				D164BAEC29E14AA1009E9B08 /* QuizPremierePro.csv */,
+				D164BAF629E2A773009E9B08 /* QuizAftterEffects.csv */,
+				D164BAF829E2A799009E9B08 /* QuizPhotoshop.csv */,
+				D1103DBC29E6D7550034A1D9 /* QuizIllustrator.csv */,
 				D164BADD29DEEF39009E9B08 /* Assets.xcassets */,
 				D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */,
 				D164BAE229DEEF39009E9B08 /* Info.plist */,
@@ -186,14 +189,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */,
-				D164BAF729E2A773009E9B08 /* quiz2.csv in Resources */,
+				D164BAF729E2A773009E9B08 /* QuizAftterEffects.csv in Resources */,
 				D164BAF129E29D20009E9B08 /* correct.png in Resources */,
 				D164BAF229E29D20009E9B08 /* incorrect.png in Resources */,
 				D164BAE129DEEF39009E9B08 /* LaunchScreen.storyboard in Resources */,
 				D164BADE29DEEF39009E9B08 /* Assets.xcassets in Resources */,
 				D164BADC29DEEF37009E9B08 /* Main.storyboard in Resources */,
-				D164BAED29E14AA1009E9B08 /* quiz1.csv in Resources */,
-				D164BAF929E2A799009E9B08 /* quiz3.csv in Resources */,
+				D1103DBD29E6D7550034A1D9 /* QuizIllustrator.csv in Resources */,
+				D164BAED29E14AA1009E9B08 /* QuizPremierePro.csv in Resources */,
+				D164BAF929E2A799009E9B08 /* QuizPhotoshop.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

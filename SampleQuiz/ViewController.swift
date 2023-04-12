@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         startButton.layer.borderWidth = 2
         startButton.layer.borderColor = UIColor.black.cgColor
     }
-
-
+    
 }
 
