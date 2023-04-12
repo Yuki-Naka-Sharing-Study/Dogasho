@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B7348E0180BEBA075584893 /* Pods_SampleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */; };
+		D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBA29E6A22E0034A1D9 /* launchImageView.png */; };
 		D164BAD529DEEF37009E9B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD429DEEF37009E9B08 /* AppDelegate.swift */; };
 		D164BAD729DEEF37009E9B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */; };
 		D164BAD929DEEF37009E9B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD829DEEF37009E9B08 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		C3FFACE484201893BB541C84 /* Pods-SampleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz.debug.xcconfig"; path = "Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		D1103DBA29E6A22E0034A1D9 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
 		D164BAD129DEEF37009E9B08 /* SampleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BAD429DEEF37009E9B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				D164BAD329DEEF37009E9B08 /* SampleQuiz */,
-				D164BAF329E29D98009E9B08 /* Prodcuts */,
 				D164BAD229DEEF37009E9B08 /* Products */,
 				DF6F6EF484DE79A4D0BECC64 /* Pods */,
 				33A5B43B163FECEF33424BB4 /* Frameworks */,
@@ -101,6 +102,7 @@
 				D164BADD29DEEF39009E9B08 /* Assets.xcassets */,
 				D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */,
 				D164BAE229DEEF39009E9B08 /* Info.plist */,
+				D1103DBA29E6A22E0034A1D9 /* launchImageView.png */,
 				D164BAEE29E29D1F009E9B08 /* image 2 */,
 			);
 			path = SampleQuiz;
@@ -113,13 +115,6 @@
 				D164BAF029E29D1F009E9B08 /* incorrect.png */,
 			);
 			path = "image 2";
-			sourceTree = "<group>";
-		};
-		D164BAF329E29D98009E9B08 /* Prodcuts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Prodcuts;
 			sourceTree = "<group>";
 		};
 		DF6F6EF484DE79A4D0BECC64 /* Pods */ = {
@@ -142,7 +137,6 @@
 				D164BACD29DEEF37009E9B08 /* Sources */,
 				D164BACE29DEEF37009E9B08 /* Frameworks */,
 				D164BACF29DEEF37009E9B08 /* Resources */,
-				08A2C8ECAE84ED080BDCE84F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */,
 				D164BAF729E2A773009E9B08 /* quiz2.csv in Resources */,
 				D164BAF129E29D20009E9B08 /* correct.png in Resources */,
 				D164BAF229E29D20009E9B08 /* incorrect.png in Resources */,
@@ -205,23 +200,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08A2C8ECAE84ED080BDCE84F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B7B3695282041F074142CB3E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -386,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -410,7 +388,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,7 +418,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
