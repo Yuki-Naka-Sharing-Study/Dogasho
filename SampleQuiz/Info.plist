@@ -8,6 +8,10 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string>ドガショ</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
