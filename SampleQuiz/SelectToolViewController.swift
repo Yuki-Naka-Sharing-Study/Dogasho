@@ -7,25 +7,29 @@
 
 import UIKit
 
-class SelectLevelViewController: UIViewController {
+class SelectToolViewController: UIViewController {
     
-    @IBOutlet weak var level1Button: UIButton!
-    @IBOutlet weak var level2Button: UIButton!
-    @IBOutlet weak var level3Button: UIButton!
+    @IBOutlet weak var PremiereProButton: UIButton!
+    @IBOutlet weak var AffterEffectsButton: UIButton!
+    @IBOutlet weak var PhotoshopButton: UIButton!
+    @IBOutlet weak var illustratorButton: UIButton!
     
     var selectTag = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        level1Button.layer.borderWidth = 2
-        level1Button.layer.borderColor = UIColor.black.cgColor
+        PremiereProButton.layer.borderWidth = 2
+        PremiereProButton.layer.borderColor = UIColor.black.cgColor
         
-        level2Button.layer.borderWidth = 2
-        level2Button.layer.borderColor = UIColor.black.cgColor
+        AffterEffectsButton.layer.borderWidth = 2
+        AffterEffectsButton.layer.borderColor = UIColor.black.cgColor
         
-        level3Button.layer.borderWidth = 2
-        level3Button.layer.borderColor = UIColor.black.cgColor
+        PhotoshopButton.layer.borderWidth = 2
+        PhotoshopButton.layer.borderColor = UIColor.black.cgColor
+        
+        illustratorButton.layer.borderWidth = 2
+        illustratorButton.layer.borderColor = UIColor.black.cgColor
         
         // Do any additional setup after loading the view.
     }
@@ -35,7 +39,7 @@ class SelectLevelViewController: UIViewController {
         quizVC.selectLevel = selectTag
     }
     
-    @IBAction func levelButtonAction(sender: UIButton) {
+    @IBAction func ToolButtonAction(sender: UIButton) {
         print(sender.tag)
         selectTag = sender.tag
         performSegue(withIdentifier: "toQuizVC", sender: nil)
