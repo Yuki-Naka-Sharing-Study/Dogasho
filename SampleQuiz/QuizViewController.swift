@@ -111,7 +111,7 @@ class QuizViewController: UIViewController {
         }
         
     }
-    
+    //「loadCSV」はいじってはいけない。
     func loadCSV(fileName: String) -> [String] {
         
         let csvBundle = Bundle.main.path(forResource: fileName, ofType: "csv")!

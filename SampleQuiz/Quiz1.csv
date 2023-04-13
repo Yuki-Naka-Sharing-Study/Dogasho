@@ -1,39 +1,39 @@
-これはPremiere Proのショートカットキークイズです。「保存」は何？,4,かめ,ウサギ,キリン,Cmd + S
-これはPremiere Proのショートカットキークイズです。「別名で保存」は何？,1,Cmd + Shift + S,サイダー,オレンジ,ピーチ
-これはPremiere Proのショートカットキークイズです。「メディア読み込み」は何？,3,リンゴ,かき,Cmd + I,ホットケーキ
-これはPremiere Proのショートカットキークイズです。「メディア書き出し」は何？,4,いのしし,ぞう,さい,Cmd + M
-これはPremiere Proのショートカットキークイズです。「Premiere Pro　終了」は何？,2,こおり,Cmd + Q,ふぶき,れいぞうこ
-これはPremiere Proのショートカットキークイズです。「新規シーケンス作成」は何？,1,Cmd + N,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「取り消し」は何？,3,あい,うえ,Cmd + Z,かき
-これはPremiere Proのショートカットキークイズです。「やり直し」は何？,2,あい,Cmd + Shift + Z,うえ,かき
-これはPremiere Proのショートカットキークイズです。「切り取り」は何？,4,あい,うえ,かき,Cmd + X
-これはPremiere Proのショートカットキークイズです。「コピー」は何？,3,あい,うえ,Cmd + C,かき
-これはPremiere Proのショートカットキークイズです。「ペースト」は何？,2,あい,Cmd + V,うえ,かき
-これはPremiere Proのショートカットキークイズです。「インサートペースト」は何？,3,あい,うえ,Cmd + shift + V,かき
-これはPremiere Proのショートカットキークイズです。「複製」は何？,1,Cmd + shift + /,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「消去」は何？,4,あい,うえ,かき,Delete
-これはPremiere Proのショートカットキークイズです。「全て選択」は何？,1,Cmd + A,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「ワークエリアでエフェクトをレンダリング」は何？,1,return,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「編集点を追加」は何？,2,あい,Cmd + K,うえ,かき
-これはPremiere Proのショートカットキークイズです。「編集点をすべてのトラックに追加」は何？,3,あい,うえ,Cmd + Shift + K,かき
-これはPremiere Proのショートカットキークイズです。「再生 / 停止」は何？,3,あい,うえ,Space,かき
-これはPremiere Proのショートカットキークイズです。「消去」は何？,2,あい,Delete,うえ,かき
-これはPremiere Proのショートカットキークイズです。「ビデオトランジションを適用」は何？,1,Cmd + D,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「オーディオトランジションを適用」は何？,4,あい,うえ,かき,Cmd + Shift + D
-これはPremiere Proのショートカットキークイズです。「インをマーク」は何？,3,あい,うえ,I,かき
-これはPremiere Proのショートカットキークイズです。「アウトをマーク」は何？,4,あい,うえ,かき,O
-これはPremiere Proのショートカットキークイズです。「マーカーを追加」は何？,4,あい,うえ,かき,M
-これはPremiere Proのショートカットキークイズです。「横書きテキストツール」は何？,3,あい,うえ,Cmd + T,かき
-これはPremiere Proのショートカットキークイズです。「長方形」は何？,2,あい,Option + Cmd + R,うえ,かき
-これはPremiere Proのショートカットキークイズです。「楕円形」は何？,2,あい,Option + Cmd + E,うえ,かき
-これはPremiere Proのショートカットキークイズです。「選択項目を削除」は何？,1,Delete,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「選択したクリップを左に 5 フレーム移動」は何？,3,あい,うえ,Shift + Cmd + →,かき
-これはPremiere Proのショートカットキークイズです。「選択したクリップを左に 1 フレーム移動」は何？,4,あい,うえ,かき,Cmd + →
-これはPremiere Proのショートカットキークイズです。「選択したクリップを右に 5 フレーム移動」は何？,3,あい,うえ,Shift + Cmd + ←,かき
-これはPremiere Proのショートカットキークイズです。「選択したクリップを右に 1 フレーム移動」は何？,1,Cmd + ←,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「選択ツール」は何？,1,V,あい,うえ,かき
-これはPremiere Proのショートカットキークイズです。「トラックの前方選択ツール」は何？,4,あい,うえ,かき,A
-これはPremiere Proのショートカットキークイズです。「リップルツール」は何？,2,あい,B,うえ,かき
-これはPremiere Proのショートカットキークイズです。「レーザーツール」は何？,2,あい,C,うえ,かき
-これはPremiere Proのショートカットキークイズです。「ペンツール」は何？,3,あい,うえ,P,かき
-これはPremiere Proのショートカットキークイズです。「ハンドツール」は何？,3,あい,うえ,H,かき
+これはPremiere Proのショートカットキークイズです。「保存」は何？,4,Cmd + Shift + S,Option + Cmd + S,S,Cmd + S
+これはPremiere Proのショートカットキークイズです。「別名で保存」は何？,1,Cmd + Shift + S,Option + Cmd + S,S,Cmd + S
+これはPremiere Proのショートカットキークイズです。「メディア読み込み」は何？,3,Cmd + R,Cmd + Shift + R,Cmd + I,Shift + R
+これはPremiere Proのショートカットキークイズです。「メディア書き出し」は何？,4,Cmd + W,Cmd + Shift + W,Shift + W,Cmd + M
+これはPremiere Proのショートカットキークイズです。「Premiere Pro　終了」は何？,2,Cmd + F,Cmd + Q,Cmd + E,Cmd + C
+これはPremiere Proのショートカットキークイズです。「新規シーケンス作成」は何？,1,Cmd + N,Cmd + S,Cmd + C,Cmd + Shift + N
+これはPremiere Proのショートカットキークイズです。「取り消し」は何？,3,Cmd + E,Cmd + Shift + Z,Cmd + Z,Cmd + N
+これはPremiere Proのショートカットキークイズです。「やり直し」は何？,2,Cmd + Shift + N,Cmd + Shift + Z,Cmd + Shift + E,Shift + Z
+これはPremiere Proのショートカットキークイズです。「切り取り」は何？,4,Cmd + Shift + X,Shift + X,Cmd + C,Cmd + X
+これはPremiere Proのショートカットキークイズです。「コピー」は何？,3,Cmd + Shift + C,Shift + C,Cmd + C,Cmd + +
+これはPremiere Proのショートカットキークイズです。「ペースト」は何？,2,Cmd + P,Cmd + V,Shift + V,Shift + P
+これはPremiere Proのショートカットキークイズです。「インサートペースト」は何？,3,Cmd + shift + I,Cmd + shift + P,Cmd + shift + V,Cmd + I
+これはPremiere Proのショートカットキークイズです。「複製」は何？,1,Cmd + shift + /,Cmd + shift + R,Cmd + shift + C,shift + R
+これはPremiere Proのショートカットキークイズです。「消去」は何？,4,-,Cmd + shift + D,Cmd + D,Delete
+これはPremiere Proのショートカットキークイズです。「全て選択」は何？,1,Cmd + A,Cmd + C,Cmd + S,Cmd + O
+これはPremiere Proのショートカットキークイズです。「ワークエリアでエフェクトをレンダリング」は何？,1,return,Cmd + R,Cmd + shift + R,shift + R
+これはPremiere Proのショートカットキークイズです。「編集点を追加」は何？,2,Cmd + A,Cmd + K,Cmd + P,Cmd + E
+これはPremiere Proのショートカットキークイズです。「編集点をすべてのトラックに追加」は何？,3,Cmd + A,Cmd + Shift + A,Cmd + Shift + K,Cmd + Shift + T
+これはPremiere Proのショートカットキークイズです。「再生 / 停止」は何？,3,Cmd + Shift + S,Cmd + Shift + Cmd + Shift + G,Space,Cmd + Shift + P
+これはPremiere Proのショートカットキークイズです。「消去」は何？,2,-,Delete,Cmd + Shift + D,Cmd + Shift + E
+これはPremiere Proのショートカットキークイズです。「ビデオトランジションを適用」は何？,1,Cmd + D,Cmd + V,Cmd + T,Cmd + Shift + V
+これはPremiere Proのショートカットキークイズです。「オーディオトランジションを適用」は何？,4,Cmd + Shift + A,Cmd + Shift + T,Cmd + T,Cmd + Shift + D
+これはPremiere Proのショートカットキークイズです。「インをマーク」は何？,3,M,Cmd + I,I,Cmd + M
+これはPremiere Proのショートカットキークイズです。「アウトをマーク」は何？,4,M,Cmd + O,Cmd + M,O
+これはPremiere Proのショートカットキークイズです。「マーカーを追加」は何？,4,A,+,Cmd + M,M
+これはPremiere Proのショートカットキークイズです。「横書きテキストツール」は何？,3,Option + T,Option + H,Cmd + T,Cmd + H
+これはPremiere Proのショートカットキークイズです。「長方形」は何？,2,Option + R,Option + Cmd + R,Cmd + R,R
+これはPremiere Proのショートカットキークイズです。「楕円形」は何？,2,Option + E,Option + Cmd + E,Cmd + E,E
+これはPremiere Proのショートカットキークイズです。「選択項目を削除」は何？,1,Delete,Cmd + D,Cmd + N,Cmd + E
+これはPremiere Proのショートカットキークイズです。「選択したクリップを左に 5 フレーム移動」は何？,3,Shift + Cmd + 5,Shift + Cmd + L,Shift + Cmd + →,Shift + Cmd + ←
+これはPremiere Proのショートカットキークイズです。「選択したクリップを左に 1 フレーム移動」は何？,4,Cmd + ←,Cmd + L,L,Cmd + →
+これはPremiere Proのショートカットキークイズです。「選択したクリップを右に 5 フレーム移動」は何？,3,Shift + Cmd + 5,Shift + Cmd + R,Shift + Cmd + ←,Shift + Cmd + →
+これはPremiere Proのショートカットキークイズです。「選択したクリップを右に 1 フレーム移動」は何？,1,Cmd + ←,Cmd + →,R,Cmd + R
+これはPremiere Proのショートカットキークイズです。「選択ツール」は何？,1,V,C,S,T
+これはPremiere Proのショートカットキークイズです。「トラックの前方選択ツール」は何？,4,T,F,C,A
+これはPremiere Proのショートカットキークイズです。「リップルツール」は何？,2,T,B,L,R
+これはPremiere Proのショートカットキークイズです。「レーザーツール」は何？,2,T,C,L,B
+これはPremiere Proのショートカットキークイズです。「ペンツール」は何？,3,5,T,P,W
+これはPremiere Proのショートカットキークイズです。「ハンドツール」は何？,3,5,T,H,S
