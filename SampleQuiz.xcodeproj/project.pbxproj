@@ -93,11 +93,11 @@
 			children = (
 				D164BAD429DEEF37009E9B08 /* AppDelegate.swift */,
 				D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */,
-				D164BAD829DEEF37009E9B08 /* ViewController.swift */,
 				D164BADA29DEEF37009E9B08 /* Main.storyboard */,
+				D164BAD829DEEF37009E9B08 /* ViewController.swift */,
 				D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */,
-				D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */,
 				D164BAE829DEF147009E9B08 /* QuizViewController.swift */,
+				D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */,
 				D164BAEC29E14AA1009E9B08 /* QuizPremierePro.csv */,
 				D164BAF629E2A773009E9B08 /* QuizAftterEffects.csv */,
 				D164BAF829E2A799009E9B08 /* QuizPhotoshop.csv */,

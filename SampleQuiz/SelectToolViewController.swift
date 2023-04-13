@@ -33,10 +33,10 @@ class SelectToolViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
+    //「selectLevel」を「selectTool」に変更
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let quizVC = segue.destination as! QuizViewController
-        quizVC.selectLevel = selectTag
+        quizVC.selectTool = selectTag
     }
     
     @IBAction func ToolButtonAction(sender: UIButton) {

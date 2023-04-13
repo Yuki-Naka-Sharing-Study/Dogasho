@@ -18,12 +18,12 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton4: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
     
-//    var bannerView: GADBannerView!
+//    var bannerView: GADBannerView! 「selectLevel」を「selectTool」に変更
     var csvArray: [String] = []
     var quizArray: [String] = []
     var quizCount = 0
     var correctCount = 0
-    var selectLevel = 0
+    var selectTool = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,10 +34,10 @@ class QuizViewController: UIViewController {
 //        bannerView.load(GADRequest())
 //        addBannerViewToView(bannerView)
         
-//        print("選択したのはレベル\(selectLevel)")
-        print("選択したツールは\(selectLevel)")
+        //「selectLevel」を「selectTool」に変更。
+        print("選択したツールは\(selectTool)")
         
-        csvArray = loadCSV(fileName: "quiz\(selectLevel)")
+        csvArray = loadCSV(fileName: "Quiz\(selectTool)")
         csvArray.shuffle()
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
