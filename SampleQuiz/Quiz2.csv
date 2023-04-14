@@ -1,29 +1,29 @@
-これはAffter Effectsのショートカットキークイズです。「位置」は何？,1,P,command + P,command + shift + P,shift + P
-これはAffter Effectsのショートカットキークイズです。「回転」は何？,3,command + R,command + shift + R,R,shift + R
-これはAffter Effectsのショートカットキークイズです。「不透明度」は何？,4,command + T,command + shift + T,shift + T,T
-これはAffter Effectsのショートカットキークイズです。「スケール」は何？,2,command + S,S,command + shift + S,shift + S
-これはAffter Effectsのショートカットキークイズです。「オーディオレベル」は何？,3,command + L,command + shift + A,L,shift + L
-これはAffter Effectsのショートカットキークイズです。「アンカーポイント」は何？,4,command + A,command + shift + A,shift + A,A
-これはAffter Effectsのショートカットキークイズです。「プロパティを閉じる」は何？,4,Q,C,S,E
-これはAffter Effectsのショートカットキークイズです。「全キーフレーム」は何？,2,A,U,command + U,command + shift + U
-これはAffter Effectsのショートカットキークイズです。「平面の作成」は何？,3,shift + C,shift + Y,command + Y,command + shift + Y
-これはAffter Effectsのショートカットキークイズです。「平面の設定変更」は何？,1,command + shift + Y,command + shift + C,command + shift + P,shift + P
-これはAffter Effectsのショートカットキークイズです。「コンポジションの新規作成」は何？,3,command + C + N,command + shift + N,command + N,shift + N
-これはAffter Effectsのショートカットキークイズです。「コンポジションの設定変更」は何？,1,command + K,command + shift + C,shift + C,shift + K
-これはAffter Effectsのショートカットキークイズです。「プリコンポ」は何？,3,command + option + C,shift + P,command + shift + C,command + shift + P
-これはAffter Effectsのショートカットキークイズです。「レイヤーの複製」は何？,2,command + L,command + D,command + option + L,option + L
-これはAffter Effectsのショートカットキークイズです。「レイヤーのカット」は何？,2,command + shift + C,command + shift + D,command + L + C,shift + C
-これはAffter Effectsのショートカットキークイズです。「レイヤーのカット（左側）」は何？,1,option + [,option + L,command + option + L,option + L
-これはAffter Effectsのショートカットキークイズです。「レイヤーのカット（右側）」は何？,1,option + ],option + R,command + option + R,option + R
-これはAffter Effectsのショートカットキークイズです。「タイムラインの縮小」は何？,4,command + T + S,command + option + S,command + T,-
-これはAffter Effectsのショートカットキークイズです。「タイムラインの拡大」は何？,3,command + T + L,command + option + T,^,command + T
-これはAffter Effectsのショートカットキークイズです。「アンカーポイントをセンター移動」は何？,3,command + fn + C,command + fn + ←,command + fn + ← option,command + option + C
-これはAffter Effectsのショートカットキークイズです。「オブジェクトをセンター移動」は何？,2,command + fn + C,command + fn + ←,fn + C,command + option + C
-これはAffter Effectsのショートカットキークイズです。「レンダキューへ追加」は何？,2,command + Shift + A,command + Shift + /,Shift + A,command + option + A
-これはAffter Effectsのショートカットキークイズです。「素材の入れ替え」は何？,1,command + option + /,command + option + E,command + E,option + E
-これはAffter Effectsのショートカットキークイズです。「シェイプの「塗り」「線」切り替え」は何？,1,option + クリック,option + C,command + option + C,option + C
-これはAffter Effectsのショートカットキークイズです。「表示マークの切り替え」は何？,1,option + クリック,option + C,command + option + C,option + C
-これはAffter Effectsのショートカットキークイズです。「ワークエリアの時間を変更」は何？,4,command + C,command + option + C,command + option + T,B
-これはAffter Effectsのショートカットキークイズです。「イーズの解除」は何？,3,command + C,command + R,command + クリック,command + L
-これはAffter Effectsのショートカットキークイズです。「キーフレームの間隔を保ったまま移動」は何？,2,option + G,option + ドロップ & ドラッグ,command + G,command + option + G
-これはAffter Effectsのショートカットキークイズです。「レイヤーをコンポジションサイズに合わせる」は何？,2,command + option + C,command + option + F,command + option + L,option + L
+これはAfter Effectsのショートカットキークイズです。「位置」は何？,1,P,command + P,command + shift + P,shift + P
+これはAfter Effectsのショートカットキークイズです。「回転」は何？,3,command + R,command + shift + R,R,shift + R
+これはAfter Effectsのショートカットキークイズです。「不透明度」は何？,4,command + T,command + shift + T,shift + T,T
+これはAfter Effectsのショートカットキークイズです。「スケール」は何？,2,command + S,S,command + shift + S,shift + S
+これはAfter Effectsのショートカットキークイズです。「オーディオレベル」は何？,3,command + L,command + shift + A,L,shift + L
+これはAfter Effectsのショートカットキークイズです。「アンカーポイント」は何？,4,command + A,command + shift + A,shift + A,A
+これはAfter Effectsのショートカットキークイズです。「プロパティを閉じる」は何？,4,Q,C,S,E
+これはAfter Effectsのショートカットキークイズです。「全キーフレーム」は何？,2,A,U,command + U,command + shift + U
+これはAfter Effectsのショートカットキークイズです。「平面の作成」は何？,3,shift + C,shift + Y,command + Y,command + shift + Y
+これはAfter Effectsのショートカットキークイズです。「平面の設定変更」は何？,1,command + shift + Y,command + shift + C,command + shift + P,shift + P
+これはAfter Effectsのショートカットキークイズです。「コンポジションの新規作成」は何？,3,command + C + N,command + shift + N,command + N,shift + N
+これはAfter Effectsのショートカットキークイズです。「コンポジションの設定変更」は何？,1,command + K,command + shift + C,shift + C,shift + K
+これはAfter Effectsのショートカットキークイズです。「プリコンポ」は何？,3,command + option + C,shift + P,command + shift + C,command + shift + P
+これはAfter Effectsのショートカットキークイズです。「レイヤーの複製」は何？,2,command + L,command + D,command + option + L,option + L
+これはAfter Effectsのショートカットキークイズです。「レイヤーのカット」は何？,2,command + shift + C,command + shift + D,command + L + C,shift + C
+これはAfter Effectsのショートカットキークイズです。「レイヤーのカット（左側）」は何？,1,option + [,option + L,command + option + L,option + L
+これはAfter Effectsのショートカットキークイズです。「レイヤーのカット（右側）」は何？,1,option + ],option + R,command + option + R,option + R
+これはAfter Effectsのショートカットキークイズです。「タイムラインの縮小」は何？,4,command + T + S,command + option + S,command + T,-
+これはAfter Effectsのショートカットキークイズです。「タイムラインの拡大」は何？,3,command + T + L,command + option + T,^,command + T
+これはAfter Effectsのショートカットキークイズです。「アンカーポイントをセンター移動」は何？,3,command + fn + C,command + fn + ←,command + fn + ← option,command + option + C
+これはAfter Effectsのショートカットキークイズです。「オブジェクトをセンター移動」は何？,2,command + fn + C,command + fn + ←,fn + C,command + option + C
+これはAfter Effectsのショートカットキークイズです。「レンダキューへ追加」は何？,2,command + Shift + A,command + Shift + /,Shift + A,command + option + A
+これはAfter Effectsのショートカットキークイズです。「素材の入れ替え」は何？,1,command + option + /,command + option + E,command + E,option + E
+これはAfter Effectsのショートカットキークイズです。「シェイプの「塗り」「線」切り替え」は何？,1,option + クリック,option + C,command + option + C,option + C
+これはAfter Effectsのショートカットキークイズです。「表示マークの切り替え」は何？,1,option + クリック,option + C,command + option + C,option + C
+これはAfter Effectsのショートカットキークイズです。「ワークエリアの時間を変更」は何？,4,command + C,command + option + C,command + option + T,B
+これはAfter Effectsのショートカットキークイズです。「イーズの解除」は何？,3,command + C,command + R,command + クリック,command + L
+これはAfter Effectsのショートカットキークイズです。「キーフレームの間隔を保ったまま移動」は何？,2,option + G,option + ドロップ & ドラッグ,command + G,command + option + G
+これはAfter Effectsのショートカットキークイズです。「レイヤーをコンポジションサイズに合わせる」は何？,2,command + option + C,command + option + F,command + option + L,option + L
