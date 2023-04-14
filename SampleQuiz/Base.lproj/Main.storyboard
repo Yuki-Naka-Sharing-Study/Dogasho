@@ -236,7 +236,7 @@
                                 <string key="text">これは００のショートカットキークイズです。
 ００は何？</string>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N0l-Xd-z3L">
@@ -246,6 +246,15 @@
                                     <constraint firstAttribute="height" constant="374" id="eOY-sr-I6R"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vza-gH-qck" userLabel="Judge Label">
+                                <rect key="frame" x="20" y="280" width="374" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="178" id="UVx-c9-C6M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fr5-vV-5Pk"/>
                         <color key="backgroundColor" red="0.792156862745098" green="0.91764705882352937" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -253,6 +262,8 @@
                             <constraint firstItem="eNG-gz-K9p" firstAttribute="leading" secondItem="Fr5-vV-5Pk" secondAttribute="leading" constant="40" id="900-L4-wM0"/>
                             <constraint firstAttribute="trailing" secondItem="la3-Mc-QER" secondAttribute="trailing" constant="20" id="9YQ-Yb-X5G"/>
                             <constraint firstItem="tBl-7X-LbR" firstAttribute="top" secondItem="Fr5-vV-5Pk" secondAttribute="top" constant="50" id="PgC-tK-kAj"/>
+                            <constraint firstItem="Vza-gH-qck" firstAttribute="leading" secondItem="Fr5-vV-5Pk" secondAttribute="leading" constant="20" id="QUz-Ma-AYX"/>
+                            <constraint firstItem="Fr5-vV-5Pk" firstAttribute="trailing" secondItem="Vza-gH-qck" secondAttribute="trailing" constant="20" id="Qag-3N-m3H"/>
                             <constraint firstItem="Fr5-vV-5Pk" firstAttribute="trailing" secondItem="eNG-gz-K9p" secondAttribute="trailing" constant="40" id="Sri-gJ-I9N"/>
                             <constraint firstItem="Fr5-vV-5Pk" firstAttribute="bottom" secondItem="eNG-gz-K9p" secondAttribute="bottom" constant="60" id="YCL-Iq-blZ"/>
                             <constraint firstItem="tBl-7X-LbR" firstAttribute="centerX" secondItem="tfv-yM-o7M" secondAttribute="centerX" id="bpv-bt-gmn"/>
@@ -260,6 +271,7 @@
                             <constraint firstItem="N0l-Xd-z3L" firstAttribute="centerX" secondItem="tfv-yM-o7M" secondAttribute="centerX" id="jzG-tj-TV0"/>
                             <constraint firstItem="eNG-gz-K9p" firstAttribute="top" secondItem="la3-Mc-QER" secondAttribute="bottom" constant="50" id="lQU-KF-cFa"/>
                             <constraint firstItem="la3-Mc-QER" firstAttribute="leading" secondItem="Fr5-vV-5Pk" secondAttribute="leading" constant="20" id="wwE-oY-tPZ"/>
+                            <constraint firstItem="Fr5-vV-5Pk" firstAttribute="bottom" secondItem="Vza-gH-qck" secondAttribute="bottom" constant="404" id="yA9-7M-MzF"/>
                             <constraint firstItem="la3-Mc-QER" firstAttribute="top" secondItem="tBl-7X-LbR" secondAttribute="bottom" constant="30" id="zkG-je-Woj"/>
                         </constraints>
                     </view>
@@ -269,6 +281,7 @@
                         <outlet property="answerButton3" destination="68V-PW-10a" id="4cQ-MX-eBz"/>
                         <outlet property="answerButton4" destination="vib-ZL-eKg" id="R4c-Z1-Wh3"/>
                         <outlet property="judgeImageView" destination="N0l-Xd-z3L" id="OMv-fn-orS"/>
+                        <outlet property="judgeLabel" destination="Vza-gH-qck" id="agW-4J-MkV"/>
                         <outlet property="quizNumberLabel" destination="tBl-7X-LbR" id="msY-o2-s6C"/>
                         <outlet property="quizTextView" destination="la3-Mc-QER" id="0Ui-yL-for"/>
                         <segue destination="ia5-PH-uQU" kind="presentation" identifier="toScoreVC" modalPresentationStyle="fullScreen" id="qm0-uw-AbR"/>
@@ -276,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6lO-3b-1fh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1054" y="17"/>
+            <point key="canvasLocation" x="1053.6231884057972" y="16.741071428571427"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="8QU-Xb-Qm1">

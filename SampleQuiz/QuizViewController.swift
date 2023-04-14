@@ -17,6 +17,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
     @IBOutlet weak var judgeImageView: UIImageView!
+    @IBOutlet weak var judgeLabel: UILabel!
     
 //    var bannerView: GADBannerView! 「selectLevel」を「selectTool」に変更
     var csvArray: [String] = []
@@ -42,7 +43,9 @@ class QuizViewController: UIViewController {
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
         quizNumberLabel.text = "第\(quizCount + 1)問"
-        quizTextView.text = quizArray[0]
+//         ここで文字列の [改行] の部分を 実際の改行文字( \n )に変換する処理を書くと推測。
+        let quizText = quizArray[0].replacingOccurrences(of: "[改行]", with: "\n")
+        quizTextView.text = quizText
         answerButton1.setTitle(quizArray[2], for: .normal)
         answerButton2.setTitle(quizArray[3], for: .normal)
         answerButton3.setTitle(quizArray[4], for: .normal)
@@ -74,11 +77,13 @@ class QuizViewController: UIViewController {
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
+            judgeLabel.text = "正解は\(quizArray[1])"
         }
         
         print("スコア：\(correctCount)")
         
         judgeImageView.isHidden = false
+        judgeLabel.isHidden = false
         answerButton1.isEnabled = false
         answerButton2.isEnabled = false
         answerButton3.isEnabled = false
@@ -86,6 +91,7 @@ class QuizViewController: UIViewController {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             self.judgeImageView.isHidden = true
+            self.judgeLabel.isHidden = true
             self.answerButton1.isEnabled = true
             self.answerButton2.isEnabled = true
             self.answerButton3.isEnabled = true
