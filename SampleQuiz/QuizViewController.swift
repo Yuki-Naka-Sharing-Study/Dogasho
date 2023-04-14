@@ -43,9 +43,9 @@ class QuizViewController: UIViewController {
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
         quizNumberLabel.text = "第\(quizCount + 1)問"
-//         ここで文字列の [改行] の部分を 実際の改行文字( \n )に変換する処理を書くと推測。
         let quizText = quizArray[0].replacingOccurrences(of: "[改行]", with: "\n")
         quizTextView.text = quizText
+        
         answerButton1.setTitle(quizArray[2], for: .normal)
         answerButton2.setTitle(quizArray[3], for: .normal)
         answerButton3.setTitle(quizArray[4], for: .normal)
@@ -89,7 +89,7 @@ class QuizViewController: UIViewController {
         answerButton3.isEnabled = false
         answerButton4.isEnabled = false
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.judgeImageView.isHidden = true
             self.judgeLabel.isHidden = true
             self.answerButton1.isEnabled = true
@@ -107,7 +107,8 @@ class QuizViewController: UIViewController {
         if quizCount < csvArray.count {
             quizArray = csvArray[quizCount].components(separatedBy: ",")
             quizNumberLabel.text = "第\(quizCount + 1)問"
-            quizTextView.text = quizArray[0]
+            let quizText = quizArray[0].replacingOccurrences(of: "[改行]", with: "\n")
+            quizTextView.text = quizText
             answerButton1.setTitle(quizArray[2], for: .normal)
             answerButton2.setTitle(quizArray[3], for: .normal)
             answerButton3.setTitle(quizArray[4], for: .normal)
