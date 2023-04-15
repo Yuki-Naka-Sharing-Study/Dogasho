@@ -74,6 +74,7 @@ class QuizViewController: UIViewController {
             correctCount += 1
             print("正解")
             judgeImageView.image = UIImage(named: "correct")
+            judgeLabel.text = ""
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
