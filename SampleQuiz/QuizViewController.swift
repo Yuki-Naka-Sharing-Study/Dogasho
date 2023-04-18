@@ -78,7 +78,10 @@ class QuizViewController: UIViewController {
         } else {
             print("不正解")
             judgeImageView.image = UIImage(named: "incorrect")
-            judgeLabel.text = "正解は\(quizArray[1])"
+//            judgeLabel.text = "正解は\(quizArray[1])"
+            let answerNumber = Int(quizArray[1])!
+            let answerText = quizArray[answerNumber + 1]
+            judgeLabel.text = "正解は\(answerText)"
         }
         
         print("スコア：\(correctCount)")
