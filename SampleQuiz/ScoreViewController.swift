@@ -14,6 +14,23 @@ class ScoreViewController: UIViewController {
     @IBOutlet weak var returnTopButton: UIButton!
     
     var correct = 0
+    var image: UIImage? {
+        
+        let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContext(rect.size)
+        
+        guard let context = UIGraphicsGetCurrentContext() else {
+            return nil
+        }
+        
+        context.setFillColor(UIColor.black.cgColor)
+        context.fill(rect)
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return image
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,8 +39,11 @@ class ScoreViewController: UIViewController {
         
         shareButton.layer.borderWidth = 2
         shareButton.layer.borderColor = UIColor.black.cgColor
+        shareButton.setBackgroundImage(image, for: .highlighted)
+        
         returnTopButton.layer.borderWidth = 2
         returnTopButton.layer.borderColor = UIColor.black.cgColor
+        returnTopButton.setBackgroundImage(image, for: .highlighted)
         // Do any additional setup after loading the view.
     }
     

@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             return nil
         }
         
-        context.setFillColor(UIColor.red.cgColor)
+        context.setFillColor(UIColor.black.cgColor)
         context.fill(rect)
         
         let image = UIGraphicsGetImageFromCurrentImageContext()

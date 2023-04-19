@@ -25,6 +25,23 @@ class QuizViewController: UIViewController {
     var quizCount = 0
     var correctCount = 0
     var selectTool = 0
+    var image: UIImage? {
+        
+        let rect = CGRect(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContext(rect.size)
+        
+        guard let context = UIGraphicsGetCurrentContext() else {
+            return nil
+        }
+        
+        context.setFillColor(UIColor.black.cgColor)
+        context.fill(rect)
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return image
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,12 +70,19 @@ class QuizViewController: UIViewController {
         
         answerButton1.layer.borderWidth = 2
         answerButton1.layer.borderColor = UIColor.black.cgColor
+        answerButton1.setBackgroundImage(image, for: .highlighted)
+        
         answerButton2.layer.borderWidth = 2
         answerButton2.layer.borderColor = UIColor.black.cgColor
+        answerButton2.setBackgroundImage(image, for: .highlighted)
+        
         answerButton3.layer.borderWidth = 2
         answerButton3.layer.borderColor = UIColor.black.cgColor
+        answerButton3.setBackgroundImage(image, for: .highlighted)
+        
         answerButton4.layer.borderWidth = 2
         answerButton4.layer.borderColor = UIColor.black.cgColor
+        answerButton4.setBackgroundImage(image, for: .highlighted)
         // Do any additional setup after loading the view.
     }
     
