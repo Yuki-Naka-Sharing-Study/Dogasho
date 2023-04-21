@@ -30,6 +30,8 @@
 		D1103DD929F2C1960034A1D9 /* DougaQuiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* DougaQuiz1.csv */; };
 		D1103DDA29F2C1960034A1D9 /* DougaQuiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* DougaQuiz3.csv */; };
 		D1103DE129F2CCA90034A1D9 /* DesignQuiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DE029F2CCA90034A1D9 /* DesignQuiz2.csv */; };
+		D1103DE329F2CD7E0034A1D9 /* DesignQuiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DE229F2CD7E0034A1D9 /* DesignQuiz3.csv */; };
+		D1103DE529F2CDA10034A1D9 /* DesignQuiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DE429F2CDA10034A1D9 /* DesignQuiz4.csv */; };
 		D164BAD529DEEF37009E9B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD429DEEF37009E9B08 /* AppDelegate.swift */; };
 		D164BAD729DEEF37009E9B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */; };
 		D164BAD929DEEF37009E9B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD829DEEF37009E9B08 /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignQuiz1.csv; sourceTree = "<group>"; };
 		D1103DDE29F2C1960034A1D9 /* DesignQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1103DE029F2CCA90034A1D9 /* DesignQuiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignQuiz2.csv; sourceTree = "<group>"; };
+		D1103DE229F2CD7E0034A1D9 /* DesignQuiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignQuiz3.csv; sourceTree = "<group>"; };
+		D1103DE429F2CDA10034A1D9 /* DesignQuiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignQuiz4.csv; sourceTree = "<group>"; };
 		D164BAD129DEEF37009E9B08 /* DougaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DougaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BAD429DEEF37009E9B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				D1103DBC29E6D7550034A1D9 /* DougaQuiz4.csv */,
 				D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */,
 				D1103DE029F2CCA90034A1D9 /* DesignQuiz2.csv */,
+				D1103DE229F2CD7E0034A1D9 /* DesignQuiz3.csv */,
+				D1103DE429F2CDA10034A1D9 /* DesignQuiz4.csv */,
 				D164BADD29DEEF39009E9B08 /* Assets.xcassets */,
 				D1103DC029F17D620034A1D9 /* launchImageView.png */,
 				D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */,
@@ -245,9 +251,11 @@
 				D1103DD129F2C1960034A1D9 /* correct.png in Resources */,
 				D1103DD229F2C1960034A1D9 /* DesignQuiz1.csv in Resources */,
 				D1103DD329F2C1960034A1D9 /* incorrect.png in Resources */,
+				D1103DE329F2CD7E0034A1D9 /* DesignQuiz3.csv in Resources */,
 				D1103DD429F2C1960034A1D9 /* LaunchScreen.storyboard in Resources */,
 				D1103DD529F2C1960034A1D9 /* Assets.xcassets in Resources */,
 				D1103DD629F2C1960034A1D9 /* Main.storyboard in Resources */,
+				D1103DE529F2CDA10034A1D9 /* DesignQuiz4.csv in Resources */,
 				D1103DD729F2C1960034A1D9 /* launchImageView.png in Resources */,
 				D1103DD829F2C1960034A1D9 /* DougaQuiz4.csv in Resources */,
 				D1103DD929F2C1960034A1D9 /* DougaQuiz1.csv in Resources */,
