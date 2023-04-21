@@ -44,7 +44,6 @@ class ScoreViewController: UIViewController {
         returnTopButton.layer.borderWidth = 2
         returnTopButton.layer.borderColor = UIColor.black.cgColor
         returnTopButton.setBackgroundImage(image, for: .highlighted)
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func shareButtonAction(_ sender: Any) {

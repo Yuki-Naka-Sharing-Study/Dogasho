@@ -52,8 +52,6 @@ class SelectToolViewController: UIViewController {
         illustratorButton.layer.borderWidth = 2
         illustratorButton.layer.borderColor = UIColor.black.cgColor
         illustratorButton.setBackgroundImage(image, for: .highlighted)
-        
-        // Do any additional setup after loading the view.
     }
     //「selectLevel」を「selectTool」に変更
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

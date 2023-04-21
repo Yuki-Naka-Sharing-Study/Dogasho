@@ -54,8 +54,11 @@ class QuizViewController: UIViewController {
         
         //「selectLevel」を「selectTool」に変更。
         print("選択したツールは\(selectTool)")
-        
-        csvArray = loadCSV(fileName: "Quiz\(selectTool)")
+#if DougaQuiz
+        csvArray = loadCSV(fileName: "DougaQuiz\(selectTool)")
+#elseif DesignQuiz
+        csvArray = loadCSV(fileName: "DesignQuiz\(selectTool)")
+#endif
         csvArray.shuffle()
         
         quizArray = csvArray[quizCount].components(separatedBy: ",")
@@ -83,7 +86,6 @@ class QuizViewController: UIViewController {
         answerButton4.layer.borderWidth = 2
         answerButton4.layer.borderColor = UIColor.black.cgColor
         answerButton4.setBackgroundImage(image, for: .highlighted)
-        // Do any additional setup after loading the view.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

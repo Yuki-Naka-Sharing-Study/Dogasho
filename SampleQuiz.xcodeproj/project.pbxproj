@@ -8,8 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		6B7348E0180BEBA075584893 /* Pods_SampleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */; };
-		D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBA29E6A22E0034A1D9 /* launchImageView.png */; };
-		D1103DBD29E6D7550034A1D9 /* Quiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBC29E6D7550034A1D9 /* Quiz4.csv */; };
+		D1103DBD29E6D7550034A1D9 /* DougaQuiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBC29E6D7550034A1D9 /* DougaQuiz4.csv */; };
+		D1103DC129F17D620034A1D9 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D1103DC029F17D620034A1D9 /* launchImageView.png */; };
+		D1103DC329F2C1700034A1D9 /* DesignQuiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */; };
+		D1103DC729F2C1960034A1D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD829DEEF37009E9B08 /* ViewController.swift */; };
+		D1103DC829F2C1960034A1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD429DEEF37009E9B08 /* AppDelegate.swift */; };
+		D1103DC929F2C1960034A1D9 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */; };
+		D1103DCA29F2C1960034A1D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */; };
+		D1103DCB29F2C1960034A1D9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAE829DEF147009E9B08 /* QuizViewController.swift */; };
+		D1103DCC29F2C1960034A1D9 /* SelectToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */; };
+		D1103DCE29F2C1960034A1D9 /* Pods_SampleQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */; };
+		D1103DD029F2C1960034A1D9 /* DougaQuiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF629E2A773009E9B08 /* DougaQuiz2.csv */; };
+		D1103DD129F2C1960034A1D9 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEF29E29D1F009E9B08 /* correct.png */; };
+		D1103DD229F2C1960034A1D9 /* DesignQuiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */; };
+		D1103DD329F2C1960034A1D9 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF029E29D1F009E9B08 /* incorrect.png */; };
+		D1103DD429F2C1960034A1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */; };
+		D1103DD529F2C1960034A1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D164BADD29DEEF39009E9B08 /* Assets.xcassets */; };
+		D1103DD629F2C1960034A1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164BADA29DEEF37009E9B08 /* Main.storyboard */; };
+		D1103DD729F2C1960034A1D9 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D1103DC029F17D620034A1D9 /* launchImageView.png */; };
+		D1103DD829F2C1960034A1D9 /* DougaQuiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = D1103DBC29E6D7550034A1D9 /* DougaQuiz4.csv */; };
+		D1103DD929F2C1960034A1D9 /* DougaQuiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* DougaQuiz1.csv */; };
+		D1103DDA29F2C1960034A1D9 /* DougaQuiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* DougaQuiz3.csv */; };
 		D164BAD529DEEF37009E9B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD429DEEF37009E9B08 /* AppDelegate.swift */; };
 		D164BAD729DEEF37009E9B08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */; };
 		D164BAD929DEEF37009E9B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAD829DEEF37009E9B08 /* ViewController.swift */; };
@@ -18,19 +37,21 @@
 		D164BAE129DEEF39009E9B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */; };
 		D164BAE929DEF147009E9B08 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAE829DEF147009E9B08 /* QuizViewController.swift */; };
 		D164BAEB29DEF260009E9B08 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */; };
-		D164BAED29E14AA1009E9B08 /* Quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* Quiz1.csv */; };
+		D164BAED29E14AA1009E9B08 /* DougaQuiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEC29E14AA1009E9B08 /* DougaQuiz1.csv */; };
 		D164BAF129E29D20009E9B08 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAEF29E29D1F009E9B08 /* correct.png */; };
 		D164BAF229E29D20009E9B08 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF029E29D1F009E9B08 /* incorrect.png */; };
 		D164BAF529E2A465009E9B08 /* SelectToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */; };
-		D164BAF729E2A773009E9B08 /* Quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF629E2A773009E9B08 /* Quiz2.csv */; };
-		D164BAF929E2A799009E9B08 /* Quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* Quiz3.csv */; };
+		D164BAF729E2A773009E9B08 /* DougaQuiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF629E2A773009E9B08 /* DougaQuiz2.csv */; };
+		D164BAF929E2A799009E9B08 /* DougaQuiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = D164BAF829E2A799009E9B08 /* DougaQuiz3.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3FFACE484201893BB541C84 /* Pods-SampleQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz.debug.xcconfig"; path = "Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz.debug.xcconfig"; sourceTree = "<group>"; };
-		D1103DBA29E6A22E0034A1D9 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
-		D1103DBC29E6D7550034A1D9 /* Quiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz4.csv; sourceTree = "<group>"; };
-		D164BAD129DEEF37009E9B08 /* SampleQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1103DBC29E6D7550034A1D9 /* DougaQuiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DougaQuiz4.csv; sourceTree = "<group>"; };
+		D1103DC029F17D620034A1D9 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DesignQuiz1.csv; sourceTree = "<group>"; };
+		D1103DDE29F2C1960034A1D9 /* DesignQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D164BAD129DEEF37009E9B08 /* DougaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DougaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D164BAD429DEEF37009E9B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D164BAD629DEEF37009E9B08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D164BAD829DEEF37009E9B08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,17 +61,25 @@
 		D164BAE229DEEF39009E9B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D164BAE829DEF147009E9B08 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
-		D164BAEC29E14AA1009E9B08 /* Quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz1.csv; sourceTree = "<group>"; };
+		D164BAEC29E14AA1009E9B08 /* DougaQuiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DougaQuiz1.csv; sourceTree = "<group>"; };
 		D164BAEF29E29D1F009E9B08 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
 		D164BAF029E29D1F009E9B08 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectToolViewController.swift; sourceTree = "<group>"; };
-		D164BAF629E2A773009E9B08 /* Quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz2.csv; sourceTree = "<group>"; };
-		D164BAF829E2A799009E9B08 /* Quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz3.csv; sourceTree = "<group>"; };
+		D164BAF629E2A773009E9B08 /* DougaQuiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DougaQuiz2.csv; sourceTree = "<group>"; };
+		D164BAF829E2A799009E9B08 /* DougaQuiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = DougaQuiz3.csv; sourceTree = "<group>"; };
 		DD7BF259E244F03847C0908A /* Pods_SampleQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D9B6BCA50B2B54F844C20A /* Pods-SampleQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleQuiz.release.xcconfig"; path = "Target Support Files/Pods-SampleQuiz/Pods-SampleQuiz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D1103DCD29F2C1960034A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1103DCE29F2C1960034A1D9 /* Pods_SampleQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D164BACE29DEEF37009E9B08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,7 +112,8 @@
 		D164BAD229DEEF37009E9B08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D164BAD129DEEF37009E9B08 /* SampleQuiz.app */,
+				D164BAD129DEEF37009E9B08 /* DougaQuiz.app */,
+				D1103DDE29F2C1960034A1D9 /* DesignQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,14 +128,15 @@
 				D164BAF429E2A465009E9B08 /* SelectToolViewController.swift */,
 				D164BAE829DEF147009E9B08 /* QuizViewController.swift */,
 				D164BAEA29DEF260009E9B08 /* ScoreViewController.swift */,
-				D164BAEC29E14AA1009E9B08 /* Quiz1.csv */,
-				D164BAF629E2A773009E9B08 /* Quiz2.csv */,
-				D164BAF829E2A799009E9B08 /* Quiz3.csv */,
-				D1103DBC29E6D7550034A1D9 /* Quiz4.csv */,
+				D164BAEC29E14AA1009E9B08 /* DougaQuiz1.csv */,
+				D164BAF629E2A773009E9B08 /* DougaQuiz2.csv */,
+				D164BAF829E2A799009E9B08 /* DougaQuiz3.csv */,
+				D1103DBC29E6D7550034A1D9 /* DougaQuiz4.csv */,
+				D1103DC229F2C1700034A1D9 /* DesignQuiz1.csv */,
 				D164BADD29DEEF39009E9B08 /* Assets.xcassets */,
+				D1103DC029F17D620034A1D9 /* launchImageView.png */,
 				D164BADF29DEEF39009E9B08 /* LaunchScreen.storyboard */,
 				D164BAE229DEEF39009E9B08 /* Info.plist */,
-				D1103DBA29E6A22E0034A1D9 /* launchImageView.png */,
 				D164BAEE29E29D1F009E9B08 /* image 2 */,
 			);
 			path = SampleQuiz;
@@ -132,9 +163,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D164BAD029DEEF37009E9B08 /* SampleQuiz */ = {
+		D1103DC429F2C1960034A1D9 /* DesignQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D164BAE529DEEF39009E9B08 /* Build configuration list for PBXNativeTarget "SampleQuiz" */;
+			buildConfigurationList = D1103DDB29F2C1960034A1D9 /* Build configuration list for PBXNativeTarget "DesignQuiz" */;
+			buildPhases = (
+				D1103DC529F2C1960034A1D9 /* [CP] Check Pods Manifest.lock */,
+				D1103DC629F2C1960034A1D9 /* Sources */,
+				D1103DCD29F2C1960034A1D9 /* Frameworks */,
+				D1103DCF29F2C1960034A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignQuiz;
+			productName = SampleQuiz;
+			productReference = D1103DDE29F2C1960034A1D9 /* DesignQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D164BAD029DEEF37009E9B08 /* DougaQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D164BAE529DEEF39009E9B08 /* Build configuration list for PBXNativeTarget "DougaQuiz" */;
 			buildPhases = (
 				B7B3695282041F074142CB3E /* [CP] Check Pods Manifest.lock */,
 				D164BACD29DEEF37009E9B08 /* Sources */,
@@ -145,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = SampleQuiz;
+			name = DougaQuiz;
 			productName = SampleQuiz;
-			productReference = D164BAD129DEEF37009E9B08 /* SampleQuiz.app */;
+			productReference = D164BAD129DEEF37009E9B08 /* DougaQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,26 +227,46 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D164BAD029DEEF37009E9B08 /* SampleQuiz */,
+				D164BAD029DEEF37009E9B08 /* DougaQuiz */,
+				D1103DC429F2C1960034A1D9 /* DesignQuiz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D1103DCF29F2C1960034A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1103DD029F2C1960034A1D9 /* DougaQuiz2.csv in Resources */,
+				D1103DD129F2C1960034A1D9 /* correct.png in Resources */,
+				D1103DD229F2C1960034A1D9 /* DesignQuiz1.csv in Resources */,
+				D1103DD329F2C1960034A1D9 /* incorrect.png in Resources */,
+				D1103DD429F2C1960034A1D9 /* LaunchScreen.storyboard in Resources */,
+				D1103DD529F2C1960034A1D9 /* Assets.xcassets in Resources */,
+				D1103DD629F2C1960034A1D9 /* Main.storyboard in Resources */,
+				D1103DD729F2C1960034A1D9 /* launchImageView.png in Resources */,
+				D1103DD829F2C1960034A1D9 /* DougaQuiz4.csv in Resources */,
+				D1103DD929F2C1960034A1D9 /* DougaQuiz1.csv in Resources */,
+				D1103DDA29F2C1960034A1D9 /* DougaQuiz3.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D164BACF29DEEF37009E9B08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1103DBB29E6A22E0034A1D9 /* launchImageView.png in Resources */,
-				D164BAF729E2A773009E9B08 /* Quiz2.csv in Resources */,
+				D164BAF729E2A773009E9B08 /* DougaQuiz2.csv in Resources */,
 				D164BAF129E29D20009E9B08 /* correct.png in Resources */,
+				D1103DC329F2C1700034A1D9 /* DesignQuiz1.csv in Resources */,
 				D164BAF229E29D20009E9B08 /* incorrect.png in Resources */,
 				D164BAE129DEEF39009E9B08 /* LaunchScreen.storyboard in Resources */,
 				D164BADE29DEEF39009E9B08 /* Assets.xcassets in Resources */,
 				D164BADC29DEEF37009E9B08 /* Main.storyboard in Resources */,
-				D1103DBD29E6D7550034A1D9 /* Quiz4.csv in Resources */,
-				D164BAED29E14AA1009E9B08 /* Quiz1.csv in Resources */,
-				D164BAF929E2A799009E9B08 /* Quiz3.csv in Resources */,
+				D1103DC129F17D620034A1D9 /* launchImageView.png in Resources */,
+				D1103DBD29E6D7550034A1D9 /* DougaQuiz4.csv in Resources */,
+				D164BAED29E14AA1009E9B08 /* DougaQuiz1.csv in Resources */,
+				D164BAF929E2A799009E9B08 /* DougaQuiz3.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +295,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D1103DC529F2C1960034A1D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D1103DC629F2C1960034A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1103DC729F2C1960034A1D9 /* ViewController.swift in Sources */,
+				D1103DC829F2C1960034A1D9 /* AppDelegate.swift in Sources */,
+				D1103DC929F2C1960034A1D9 /* ScoreViewController.swift in Sources */,
+				D1103DCA29F2C1960034A1D9 /* SceneDelegate.swift in Sources */,
+				D1103DCB29F2C1960034A1D9 /* QuizViewController.swift in Sources */,
+				D1103DCC29F2C1960034A1D9 /* SelectToolViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D164BACD29DEEF37009E9B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +368,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D1103DDC29F2C1960034A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FFACE484201893BB541C84 /* Pods-SampleQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J48TJY98C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "デザショ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D DesignQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.DesignQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1103DDD29F2C1960034A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D9B6BCA50B2B54F844C20A /* Pods-SampleQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6J48TJY98C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "デザショ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D DesignQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.DesignQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D164BAE329DEEF39009E9B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -389,18 +559,21 @@
 				DEVELOPMENT_TEAM = 6J48TJY98C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ドガショ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.SampleQuiz;
+				OTHER_SWIFT_FLAGS = "-D DougaQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.DougaQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,18 +592,21 @@
 				DEVELOPMENT_TEAM = 6J48TJY98C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ドガショ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.SampleQuiz;
+				OTHER_SWIFT_FLAGS = "-D DougaQuiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yukinaka.DougaQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -441,6 +617,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D1103DDB29F2C1960034A1D9 /* Build configuration list for PBXNativeTarget "DesignQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1103DDC29F2C1960034A1D9 /* Debug */,
+				D1103DDD29F2C1960034A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D164BACC29DEEF37009E9B08 /* Build configuration list for PBXProject "SampleQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -450,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D164BAE529DEEF39009E9B08 /* Build configuration list for PBXNativeTarget "SampleQuiz" */ = {
+		D164BAE529DEEF39009E9B08 /* Build configuration list for PBXNativeTarget "DougaQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D164BAE629DEEF39009E9B08 /* Debug */,
