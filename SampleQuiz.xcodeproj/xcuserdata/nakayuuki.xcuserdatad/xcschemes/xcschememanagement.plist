@@ -4,15 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SampleQuiz copy.xcscheme_^#shared#^_</key>
+		<key>DesignQuiz.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>SampleQuiz.xcscheme_^#shared#^_</key>
+		<key>DougaQuiz.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>SmaphoQuiz.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>WebQuiz.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D1103DC429F2C1960034A1D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1103E0229F2D0C60034A1D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

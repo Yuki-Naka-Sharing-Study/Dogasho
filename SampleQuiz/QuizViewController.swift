@@ -58,6 +58,10 @@ class QuizViewController: UIViewController {
         csvArray = loadCSV(fileName: "DougaQuiz\(selectTool)")
 #elseif DesignQuiz
         csvArray = loadCSV(fileName: "DesignQuiz\(selectTool)")
+#elseif DesignQuiz
+        csvArray = loadCSV(fileName: "SmaphoQuiz\(selectTool)")
+#else
+        csvArray = loadCSV(fileName: "WebQuiz\(selectTool)")
 #endif
         csvArray.shuffle()
         
